@@ -11,3 +11,4 @@ fastapi
 uvicorn
 sse_starlette
 huggingface_hub
+openai
