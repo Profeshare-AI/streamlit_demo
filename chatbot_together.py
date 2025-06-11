@@ -3,8 +3,9 @@ import pickle
 import json
 from dotenv import load_dotenv
 from openai import OpenAI
+import streamlit as st
 
-def analyze_matches(pickle_file_path: str, student_data: list) -> str:
+def analyze_matches(pickle_file_path: str, student_data: list) -> str:import streamlit as st
     """
     Analyze job matches for a given student using Together AI and DeepSeek model.
 
