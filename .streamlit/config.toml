@@ -1,0 +1,5 @@
+[server]
+headless = true
+enableCORS = false
+# Point to your main script if it’s not "app.py":
+# command = "streamlit run app.py"
