@@ -19,7 +19,7 @@ def analyze_matches(pickle_file_path: str, student_data: list) -> str:
     # Load environment variables
     load_dotenv()
 
-    TOGETHER_API_KEY = os.getenv("TOGETHER_API_KEY")
+    TOGETHER_API_KEY = st.secrets["TOGETHER_API_KEY"]
     MODEL_NAME = "deepseek-ai/DeepSeek-R1-Distill-Llama-70B-free"
 
     if not TOGETHER_API_KEY:
